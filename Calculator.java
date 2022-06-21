@@ -10,6 +10,9 @@ public class Calculator {
 		System.out.println("Enter second number : ");
 		double b = sc.nextInt();
 		
+		double d = add(a,b);
+		System.out.println("Addition is : "+d);
+		
 		System.out.println("1. Addition 2. Subtraction 3. Multiplication 4. Division 5. Percentage");
 		System.out.println("Enter choice : ");
 		int ch = sc.nextInt();
@@ -49,6 +52,12 @@ public class Calculator {
 		
 		
 		
+	}
+
+	public static double add(double a, double b) {
+
+		double sum = a+b;
+		return 0.0;
 	}
 
 }
